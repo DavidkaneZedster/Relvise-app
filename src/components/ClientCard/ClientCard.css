@@ -1,0 +1,12 @@
+.Client__matters {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .Client__matters {
+        flex-wrap: wrap;
+    }
+}

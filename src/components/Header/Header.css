@@ -1,0 +1,100 @@
+.Header,
+.Menu,
+.Menu__list,
+.Header__btns,
+.Header__btns_link {
+    display: flex;
+}
+
+.Header {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.Header__link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.Menu {
+    gap: 40px;
+    align-items: center;
+}
+
+.Header__btns,
+.Menu__list {
+    gap: 20px;
+}
+
+.Menu__link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.Burger {
+    position: absolute;
+    right: -140px;
+    padding: 15px;
+}
+
+.Close__btn {
+    display: none;  
+}
+
+.Close__btn img {
+    width: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1260px) {
+    .Burger {
+        right: -80px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Burger {
+        position: static;
+        padding: 0;
+    }
+
+    .Menu__list {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -150%;
+        gap: 70px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: #252B42;
+        transition: 0.5s all ease;
+    }
+
+    .Close__btn {
+        display: block;
+    }
+
+    .Menu__close {
+        position: absolute;
+        top: 2.5rem;
+        right: 1rem;
+    }
+
+    .Menu__show {
+        right: 0;
+    }
+}

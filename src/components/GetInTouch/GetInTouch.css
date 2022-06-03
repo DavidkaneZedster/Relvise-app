@@ -1,0 +1,82 @@
+.Get {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.Cards {
+    display: flex;
+    align-items: center;
+}
+
+.Card__item {
+    padding: 50px 40px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.Card__item_primary {
+    padding: 80px 40px;
+    background: #0D5C63;
+}
+
+.Card__text,
+.Card__afterText {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: 5px;
+}
+
+.Card__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 15px;
+}
+
+.Get__card_button {
+    margin-top: 15px;
+}
+
+.Get__card_link {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FF7B47;
+    padding: 10px 20px;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+}
+
+.Card__text_primary,
+.Card__link_primary {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.Card__title_primary {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.Card__link_primary {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 950px) {
+    .Cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

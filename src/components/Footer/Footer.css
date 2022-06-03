@@ -1,0 +1,30 @@
+.Footer__container {
+    display: flex;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.Footer__menu_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 796px) {
+    .Footer__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .Footer__container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Footer__menu_item {
+        margin: 0 auto;
+    }
+}
+

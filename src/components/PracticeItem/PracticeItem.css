@@ -1,0 +1,36 @@
+.Practice__box {
+    background-color: #FFF;
+    padding: 30px 30px;
+}
+
+.Practice__item {
+    width: 240px;
+}
+
+.Practice__item_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+.Practice__item_subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.Practice__img {
+    width: 240px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Practice__box {
+        padding: 15px 15px;
+    }
+}

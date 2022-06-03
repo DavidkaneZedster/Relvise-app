@@ -1,0 +1,25 @@
+.Footer__title_menu {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.Footer__menu_link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.Footer__title_menu {
+    margin-bottom: 10px;
+}
+
+.Footer__menu_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

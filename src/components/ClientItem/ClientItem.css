@@ -1,0 +1,29 @@
+.Client__item {
+    padding: 30px 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.Client__item_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.Client__item_subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+    width: 160px;
+}
+
+@media screen and (max-width: 1260px) {
+    .Client__item {
+        padding: 15px 20px;
+    }
+}
+

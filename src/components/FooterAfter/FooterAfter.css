@@ -1,0 +1,38 @@
+.Footer__after {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.After__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.After__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .Footer__after {
+        flex-direction: column;
+        gap: 50px;
+        padding: 25px 70px;
+    }
+
+    .After__icons {
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Footer__after {
+        padding: 25px 30px;
+    }
+}

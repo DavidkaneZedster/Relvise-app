@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+
+body {
+    background: url('./img/Header/background__image.png') no-repeat center center / cover;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 950px) {
+    body {
+        height: 160vh;
+    }
+}
+
+.Dark {
+    background: #252B42;
+}
+
+.Footer {
+    background: #17213C;
+}

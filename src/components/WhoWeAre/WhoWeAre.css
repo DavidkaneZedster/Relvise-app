@@ -1,0 +1,100 @@
+.Who__we {
+    display: flex;
+    gap: 120px;
+    padding-bottom: 80px;
+}
+
+.Who__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 324px;
+}
+
+.Who__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 10px 0 30px 0;
+}
+
+.Points {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Point__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.Point__container {
+    display: flex;
+    gap: 20px;
+}
+
+.Point__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 285px;
+}
+
+.Point__subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .Who__we {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Who__title,
+    .Who__subtitle {
+        width: 100%;
+    }
+
+    .Point__container {
+        justify-content: center;
+        text-align: left;
+        flex-direction: row;
+    }
+
+    .Video {
+        max-width: 100%;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .Who__title,
+    .Who__subtitle {
+        width: 100%;
+    }
+
+    .Who__we {
+        text-align: left;
+    }
+
+    .Point__title {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .Point__subtitle {
+        font-size: 12px;
+    }
+}

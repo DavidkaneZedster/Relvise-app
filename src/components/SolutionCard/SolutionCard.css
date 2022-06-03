@@ -1,0 +1,27 @@
+.Solution__card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: -10%;
+}
+
+@media screen and (max-width: 1115px) {
+    .Solution__card {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Solution__card {
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .Solution__card {
+        width: 80%;
+    }
+}
